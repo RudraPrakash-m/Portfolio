@@ -195,7 +195,7 @@ const Contact = () => {
                   name="user_name"
                   required
                   className="w-full px-4 py-3 bg-[#0f0f0f] border border-gray-700 rounded-lg text-white focus:border-green-500 focus:ring-1 focus:ring-green-500 transition"
-                  placeholder="Jane Doe"
+                  placeholder="Your Name"
                 />
               </motion.div>
 
