@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import Nav from "./components/Nav";
-import { data, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import CustomCursor from "./custom_cursor/CustomCursor";
 import ScrollToTop from "./scrolltotop/ScrollToTop";
 import axios from "axios";
@@ -9,6 +9,7 @@ export const AllData = createContext();
 
 const Layout = () => {
   const [userData, setUserData] = useState([]);
+  console.log("API URL:", import.meta.env.VITE_REACT_APP_API);
 
   const fData = async () => {
     try {
