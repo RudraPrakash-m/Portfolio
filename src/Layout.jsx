@@ -9,7 +9,7 @@ export const AllData = createContext();
 
 const Layout = () => {
   const [userData, setUserData] = useState([]);
-  console.log("API URL:", import.meta.env.VITE_REACT_APP_API);
+  // console.log("API URL:", import.meta.env.VITE_REACT_APP_API);
 
   const fData = async () => {
     try {
